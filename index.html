@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rinsiya's portfolio showcasing AWS cloud engineering, DevOps, Terraform, CI/CD, cloud security, and infrastructure automation projects.">
+  <meta name="theme-color" content="#080d1a">
+  <title>Rinsiya | Cloud & DevOps Engineer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">R<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> CLOUD · DEVOPS · AUTOMATION</p>
+        <h1>Building reliable systems for the <span>cloud.</span></h1>
+        <p class="hero-description">
+          I'm Rinsiya, a Computer Science Engineering graduate interested in
+          cloud infrastructure, DevOps automation, secure deployments and
+          system administration.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore My Projects ↗</a>
+          <a class="button secondary" href="#contact">Get In Touch</a>
+        </div>
+        <div class="hero-tags">
+          <span>AWS</span><span>Terraform</span><span>GitHub Actions</span>
+          <span>Linux</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="terminal-top"><span></span><span></span><span></span>
+          <small>cloud-engineer.sh</small>
+        </div>
+        <div class="terminal-body">
+          <p class="terminal-muted"># My approach</p>
+          <p><span class="code-green">$</span> automate()</p>
+          <p class="code-indent">infrastructure</p>
+          <p class="code-indent">deployments</p>
+          <p class="code-indent">monitoring</p>
+          <p class="code-indent">security</p>
+          <br>
+          <p><span class="code-green">✓</span> Always learning</p>
+          <p><span class="code-green">✓</span> Infrastructure as Code</p>
+          <p><span class="code-green">✓</span> Continuous improvement</p>
+          <p class="terminal-cursor">▌</p>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE ↓</a>
+    </section>
+
+    <section class="section container" id="about">
+      <p class="section-label">01 / ABOUT ME</p>
+      <h2>Technology with <span>purpose.</span></h2>
+      <p class="section-intro">
+        I hold a B.Tech in Computer Science and Engineering with a CGPA of
+        8.8/10. I enjoy learning how cloud infrastructure, automation,
+        networking and security work together to support real applications.
+      </p>
+      <div class="stats-grid">
+        <article class="stat-card">
+          <strong>8.8<span>/10</span></strong>
+          <p>Graduation CGPA</p>
+        </article>
+        <article class="stat-card">
+          <strong>AWS</strong>
+          <p>Cloud Infrastructure</p>
+        </article>
+        <article class="stat-card">
+          <strong>IaC</strong>
+          <p>Terraform Automation</p>
+        </article>
+        <article class="stat-card">
+          <strong>CI/CD</strong>
+          <p>GitHub Actions</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <p class="section-label">02 / TECHNICAL SKILLS</p>
+        <h2>My <span>toolkit.</span></h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">☁</div>
+            <h3>Cloud & AWS</h3>
+            <p>EC2, S3, RDS, EBS, EFS, IAM, KMS, Lambda, API Gateway, DynamoDB, CloudWatch, Auto Scaling, ALB, SQS, SNS</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">⌘</div>
+            <h3>DevOps & IaC</h3>
+            <p>Terraform, Git, GitHub Actions, CI/CD pipelines, OIDC federation, serverless architecture</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">⬡</div>
+            <h3>Security & Networking</h3>
+            <p>IAM policies, least privilege, RBAC, MFA, encryption, JWT, DNS, SSH, TCP/IP</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">▣</div>
+            <h3>Systems Administration</h3>
+            <p>Linux (RHEL), Windows Server 2022, Active Directory, Microsoft 365, Google Workspace</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">{ }</div>
+            <h3>Programming</h3>
+            <p>Python, JavaScript, React, Node.js, Express.js, MongoDB</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">↗</div>
+            <h3>Web & Collaboration</h3>
+            <p>REST APIs, Git-based workflows, application deployment and technical documentation</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <p class="section-label">03 / SELECTED PROJECTS</p>
+      <h2>Built to <span>solve problems.</span></h2>
+      <p class="section-intro">A selection of engineering and development projects.</p>
+
+      <div class="projects-grid">
+        <article class="project-card featured">
+          <div class="project-top">
+            <span class="project-number">PROJECT 01</span>
+            <span class="project-symbol">⌁</span>
+          </div>
+          <h3>DeployPulse</h3>
+          <p class="project-subtitle">Serverless CI/CD & Incident Intelligence on AWS</p>
+          <p>Designed a serverless workflow for task tracking and rule-based incident classification, with automated infrastructure provisioning and event-driven notifications.</p>
+          <div class="project-tags">
+            <span>AWS Lambda</span><span>Terraform</span><span>GitHub Actions</span>
+            <span>DynamoDB</span><span>CloudWatch</span>
+          </div>
+          <p class="project-note">Includes OIDC-based CI/CD authentication, Cognito JWT authorization, and an event pipeline using EventBridge, SQS and SNS.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-number">PROJECT 02</span>
+            <span class="project-symbol">◉</span>
+          </div>
+          <h3>GestureVoice</h3>
+          <p class="project-subtitle">Gesture-to-Speech System</p>
+          <p>Developed a gesture-based communication system that combines hand tracking, computer vision and speech generation, with multilingual translation.</p>
+          <div class="project-tags">
+            <span>Python</span><span>MediaPipe</span><span>OpenCV</span>
+            <span>TensorFlow</span><span>gTTS</span>
+          </div>
+          <p class="project-note">Final-year Computer Science Engineering project.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-number">PROJECT 03</span>
+            <span class="project-symbol">⌘</span>
+          </div>
+          <h3>Secure Cloud Portfolio</h3>
+          <p class="project-subtitle">Web Hosting & Server Administration</p>
+          <p>A practical hosting lab: build a website locally, package it into a ZIP archive, deploy it to Ubuntu on AWS EC2, and serve it through Nginx.</p>
+          <div class="project-tags">
+            <span>AWS EC2</span><span>Ubuntu</span><span>Nginx</span>
+            <span>DNS</span><span>HTTPS</span>
+          </div>
+          <p class="project-note">Deployment project — update this card after completing and verifying the live deployment.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <p class="section-label">04 / EXPERIENCE & EDUCATION</p>
+        <h2>My <span>journey.</span></h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">AUG 2026 — PRESENT</span>
+            <h3>Cloud Computing Intern</h3>
+            <p class="timeline-place">Febno Technologies · Malappuram, Kerala</p>
+            <p>Developing practical knowledge of cloud infrastructure, application deployment, networking and infrastructure administration.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">JAN 2025 — FEB 2025</span>
+            <h3>Full Stack Development Intern</h3>
+            <p class="timeline-place">ICT Academy of Kerala · Kozhikode</p>
+            <p>Worked with the MERN stack, REST APIs, backend services and Git-based collaboration.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">JUN 2024 — SEP 2024</span>
+            <h3>Computer Science Tutor</h3>
+            <p class="timeline-place">Interval Learning · Malappuram</p>
+            <p>Helped students learn programming fundamentals and logical problem-solving.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">2022 — 2026</span>
+            <h3>B.Tech Computer Science and Engineering</h3>
+            <p class="timeline-place">APJ Abdul Kalam Technological University</p>
+            <p>CGPA: 8.8/10 · IsDB Scholarship recipient (2023).</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <p class="section-label">05 / CONTACT</p>
+      <h2>Let's build something <span>useful.</span></h2>
+      <p class="section-intro">
+        I'm interested in entry-level opportunities in Cloud Engineering,
+        DevOps, Cloud Support and System Administration.
+      </p>
+      <div class="contact-links">
+        <a class="button primary" href="mailto:rinsiya73@gmail.com">Email Me ↗</a>
+        <a class="button secondary" href="https://github.com/rinsiyap" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a class="button secondary" href="https://www.linkedin.com/in/rinsiya--/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">R<span>.</span></a>
+      <p>Designed and built by Rinsiya · <span id="year"></span></p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
